@@ -1,0 +1,49 @@
+.lebar{
+  width: 30%;
+}
+
+.kotak{
+  background-color: pink;
+  height: 10vh;
+  color: white;
+}
+
+.carousel-item img{
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  
+}
+
+body :: after {
+  content: "XS"  ;
+  position: fixed ;
+  right: 0;
+  top: 0;
+}
+@media(min-widht:576px){
+  body:;after{
+    content: "SM" ;
+  }
+}
+@media(min-widht:768px){
+  body:;after{
+    content: "MD" ;
+  }
+}
+@media(min-widht:992px){
+  body:;after{
+    content: "LG" ;
+  }
+}
+@media(min-widht:1200px){
+  body:;after{
+    content: "XL" ;
+  }
+}
+@media(min-widht:1400px){
+  body:;after{
+    content: "XXL" ;
+  }
+}

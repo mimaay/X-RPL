@@ -1,0 +1,16 @@
+<?php
+
+    session_start();
+    echo $_SESSION['user'];
+    echo '<br>';
+    echo $_SESSION['nama'];
+    echo '<br>';
+    echo $_SESSION['alamat'];
+    echo '<br>';
+
+    foreach($_SESSION as $k => $v) {
+        echo $key.'=>'.$v.'<br>';
+    }
+    
+    
+?>
